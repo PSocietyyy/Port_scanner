@@ -16,19 +16,11 @@ Port Scanner ini adalah alat sederhana untuk memindai port TCP dan UDP pada alam
 1. Clone repository ini:
 
    ```bash
-   git clone https://github.com/username/port_scanner.git
+   git clone https://github.com/PSocietyyy/Port_scanner.git
    cd port_scanner
    ```
 
-2. (Opsional) Gunakan **virtual environment** untuk mengelola paket:
-
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # Linux/macOS
-   .\venv\Scripts\activate   # Windows
-   ```
-
-3. Install dependensi yang diperlukan (jika ada).
+2. Install dependensi yang diperlukan (jika ada).
 
 ## Cara Penggunaan
 
