@@ -6,6 +6,7 @@ import time
 
 
 class PortScanner:
+    # Constructor
     def __init__(
         self,
         target: str,
@@ -43,6 +44,8 @@ class PortScanner:
 
         print(f"\nDimulai: {datetime.now()}\n")
 
+        # Mengecek apakah menggunakan rentang port
+        # atau menggunakan port tertentu saja
         ports_to_scan = (
             self.port_scanning_list
             if self.port_scanning_list

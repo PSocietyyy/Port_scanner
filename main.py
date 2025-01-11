@@ -21,7 +21,7 @@ if __name__ == "__main__":
     parser.add_argument("-eP", "--end_port", type=int, default=9999, help="Port akhir yang dipindai")
     parser.add_argument("-p", "--ports", help="Daftar port spesifik (22,80,443)")
     parser.add_argument("-st", "--scan_type", choices=["TCP", "UDP"], default="TCP", help="Jenis pemindaian")
-    parser.add_argument("-sS", "--syn_scan", action="store_true", help="Gunakan SYN scan untuk TCP")
+    parser.add_argument("-sS", "--syn_scan", action="store_true", help="Gunakan SYN scan untuk TCP (harus sebagai sudo[linux] atau administrator[windows])")
     parser.add_argument("-o", "--output", help="Simpan output ke file")
 
     args = parser.parse_args()
