@@ -107,8 +107,3 @@ Pengaturan ini dapat diubah di file `config/settings.py`.
 ## Lisensi
 
 Port Scanner ini dirilis di bawah **MIT License**.
-
-```
-
-Silakan simpan konten di atas ke dalam file `README.md` pada project Anda. Ini sudah mencakup berbagai penggunaan, opsi pemindaian, dan penjelasan singkat mengenai fungsionalitas port scanner Anda.
-```
